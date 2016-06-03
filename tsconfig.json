@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        // "noImplicitAny": true,//在表达式和声明上有隐含的'any'类型时报错。
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "noImplicitReturns": true,
+        //"outFile": "../../built/local/tsc.js",
+        "sourceMap": true,
+        "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
